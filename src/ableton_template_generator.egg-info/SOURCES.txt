@@ -1,0 +1,6 @@
+setup.py
+src/ableton_template_generator.egg-info/PKG-INFO
+src/ableton_template_generator.egg-info/SOURCES.txt
+src/ableton_template_generator.egg-info/dependency_links.txt
+src/ableton_template_generator.egg-info/requires.txt
+src/ableton_template_generator.egg-info/top_level.txt

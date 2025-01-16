@@ -1,0 +1,32 @@
+# 2. templates/genres/cumbia.yml
+genre: "cumbia"
+default_tempo: 95
+default_duration_minutes: 4
+timeline_markers:
+  - name: "Intro"
+    position_bars: 0
+    duration_bars: 8
+    description: "Percussion build-up"
+  - name: "Verse 1"
+    position_bars: 8
+    duration_bars: 16
+    description: "First verse"
+groups:
+  - name: "Drums"
+    color: "YELLOW"
+    tracks:
+      - name: "Guacharaca/Güiro"
+        type: "BOTH"
+        color: "YELLOW"
+        layers: 1
+      - name: "Congas"
+        type: "BOTH"
+        color: "YELLOW"
+        layers: 2
+  - name: "Bass"
+    color: "BLUE"
+    tracks:
+      - name: "Bass Line"
+        type: "MIDI"
+        color: "BLUE"
+        layers: 2

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Ableton MajorVersion="5" MinorVersion="10.0_377" SchemaChangeCount="3" Creator="Ableton Live 11.0.12" Revision="570160e452e6e8ec882f7b3e365122a4f3af9abd">
+  <LiveSet>
+    <Tracks>
+      <GroupTrack Id="896163bf-bae5-4c4f-a030-345b5b842597" Name="Rhythm">
+        <ColorIndex>1</ColorIndex>
+        <Tracks>
+          <AudioTrack Id="9bfed6d9-43be-41df-86d8-e3307d311a05" Name="Guiro">
+            <ColorIndex>1</ColorIndex>
+            <DeviceChain/>
+          </AudioTrack>
+          <AudioTrack Id="5251e22f-c31b-4688-860d-5c33c6b3ba32" Name="Congas">
+            <ColorIndex>1</ColorIndex>
+            <DeviceChain/>
+          </AudioTrack>
+          <AudioTrack Id="db83f5fb-f3c2-43cf-889f-46cccc5b77ae" Name="Drums">
+            <ColorIndex>1</ColorIndex>
+            <DeviceChain/>
+          </AudioTrack>
+        </Tracks>
+      </GroupTrack>
+      <GroupTrack Id="1a85b5e7-f974-453e-b79a-6a37c3a55c5b" Name="Bass">
+        <ColorIndex>5</ColorIndex>
+        <Tracks>
+          <MidiTrack Id="dc5b52db-2c1b-4146-8919-de6d8cd6ade3" Name="Bass">
+            <ColorIndex>5</ColorIndex>
+            <DeviceChain/>
+          </MidiTrack>
+        </Tracks>
+      </GroupTrack>
+      <GroupTrack Id="f92d9e9e-0a99-46e3-b7a9-3cfcedd16731" Name="Harmony">
+        <ColorIndex>2</ColorIndex>
+        <Tracks>
+          <MidiTrack Id="8c41a11f-72f7-439e-bb02-730c9a64495f" Name="Keys">
+            <ColorIndex>2</ColorIndex>
+            <DeviceChain/>
+          </MidiTrack>
+          <AudioTrack Id="8cb31cc9-f40d-41d2-93fa-68b5afc4c1a2" Name="Guitar">
+            <ColorIndex>2</ColorIndex>
+            <DeviceChain/>
+          </AudioTrack>
+        </Tracks>
+      </GroupTrack>
+      <MasterTrack Id="d8ef0621-8e26-41ef-b270-a22a79a58d18" Name="Master"/>
+    </Tracks>
+    <MasterTrack Value="104.0"/>
+    <Locators>
+      <Locator Id="62038df0-7816-4b6d-a061-8280689452ad" Name="Intro" Time="0" Duration="32" Label="Percussion build-up"/>
+      <Locator Id="0a3159b2-7535-41b8-9b3d-06fb3b6ca5bc" Name="Verse 1" Time="32" Duration="64" Label="Main cumbia pattern"/>
+      <Locator Id="14024b37-11ef-493c-bf2e-129723728f90" Name="Chorus" Time="96" Duration="64" Label="Full intensity"/>
+    </Locators>
+  </LiveSet>
+</Ableton>

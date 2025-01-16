@@ -1,0 +1,39 @@
+# 3. templates/patterns/cumbia/guiro_patterns.yml
+instrument: "guiro"
+patterns:
+  - name: "Patrón Básico"
+    length_bars: 1
+    slot_index: 0
+    scene_index: 0
+    color: "#FFB6C1"
+    notes:
+      - pitch: 64
+        velocity: 100
+        position: 0.0
+        duration: 0.25
+      - pitch: 64
+        velocity: 90
+        position: 0.5
+        duration: 0.25
+      - pitch: 64
+        velocity: 100
+        position: 1.0
+        duration: 0.25
+      - pitch: 64
+        velocity: 90
+        position: 1.5
+        duration: 0.25
+  - name: "Variación 1"
+    length_bars: 2
+    slot_index: 1
+    scene_index: 0
+    color: "#FFB6C1"
+    notes:
+      - pitch: 64
+        velocity: 100
+        position: 0.0
+        duration: 0.25
+      - pitch: 64
+        velocity: 90
+        position: 0.75
+        duration: 0.25

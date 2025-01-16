@@ -1,0 +1,43 @@
+# 1. src/ableton_template_generator/config/ai_generation.yml
+ai_generation:
+  enabled: true
+  api:
+    provider: "anthropic"
+    model: "claude-3-opus-20240229"
+    temperature: 0.7
+    max_tokens: 2000
+    timeout: 30
+  
+  pattern_generation:
+    default_variations: 2
+    max_variations: 5
+    complexity_range: [1, 5]
+    default_bars: 2
+    max_bars: 8
+    
+  genre_specific_settings:
+    cumbia:
+      preferred_complexity: 2
+      typical_bar_length: 2
+      instruments:
+        guiro:
+          complexity: 2
+          variations: 3
+          style_hints: "Traditional cumbia güiro patterns with emphasis on upbeats"
+        congas:
+          complexity: 3
+          variations: 3
+          style_hints: "Syncopated patterns with traditional cumbia feel"
+    
+    nudisco:
+      preferred_complexity: 3
+      typical_bar_length: 4
+      instruments:
+        bass:
+          complexity: 4
+          variations: 3
+          style_hints: "Funky disco basslines with sixteenth note variations"
+        strings:
+          complexity: 3
+          variations: 2
+          style_hints: "Disco string stabs on upbeats with occasional runs"

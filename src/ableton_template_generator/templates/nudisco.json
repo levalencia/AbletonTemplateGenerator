@@ -1,0 +1,102 @@
+{
+  "genre": "nudisco",
+  "default_tempo": 118,
+  "default_duration_minutes": 4.5,
+  "groups": [
+    {
+      "name": "Drums",
+      "color": "YELLOW",
+      "tracks": [
+        {
+          "name": "Kick",
+          "type": "BOTH",
+          "color": "YELLOW",
+          "layers": 1
+        },
+        {
+          "name": "Snare",
+          "type": "BOTH",
+          "color": "YELLOW",
+          "layers": 1
+        },
+        {
+          "name": "Hats",
+          "type": "BOTH",
+          "color": "YELLOW",
+          "layers": 2
+        }
+      ]
+    },
+    {
+      "name": "Bass",
+      "color": "BLUE",
+      "tracks": [
+        {
+          "name": "Bass",
+          "type": "MIDI",
+          "color": "BLUE",
+          "layers": 1
+        }
+      ]
+    },
+    {
+      "name": "Harmony",
+      "color": "GREEN",
+      "tracks": [
+        {
+          "name": "Strings",
+          "type": "MIDI",
+          "color": "GREEN",
+          "layers": 2
+        },
+        {
+          "name": "Keys",
+          "type": "MIDI",
+          "color": "GREEN",
+          "layers": 2
+        }
+      ]
+    },
+    {
+      "name": "FX",
+      "color": "PURPLE",
+      "tracks": [
+        {
+          "name": "Impacts",
+          "type": "AUDIO",
+          "color": "PURPLE",
+          "layers": 1
+        },
+        {
+          "name": "Risers",
+          "type": "AUDIO",
+          "color": "PURPLE",
+          "layers": 1
+        }
+      ]
+    }
+  ],
+  "timeline_markers": [
+    {
+      "name": "Intro",
+      "position_bars": 0,
+      "duration_bars": 16,
+      "description": "Filtered build-up",
+      "marker_type": "SECTION_START"
+    },
+    {
+      "name": "Break",
+      "position_bars": 16,
+      "duration_bars": 8,
+      "description": "Drop preparation",
+      "marker_type": "SECTION_START"
+    },
+    {
+      "name": "Drop",
+      "position_bars": 24,
+      "duration_bars": 32,
+      "description": "Main groove",
+      "marker_type": "SECTION_START"
+    }
+  ]
+}
